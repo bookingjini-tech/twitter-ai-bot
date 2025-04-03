@@ -1,12 +1,12 @@
-# Twitter AI Bot for BookingJini
+# Twitter AI Bot
 
-An automated Twitter bot that generates and posts professional tweets for Sibasish Mishra, Founder & CEO of BookingJini. The bot uses AI to create content based on trending tech news, particularly focusing on hospitality technology, entrepreneurship, and leadership.
+An automated Twitter bot that generates and posts professional tweets based on trending tech news. The bot uses AI to create content focused on technology, entrepreneurship, and innovation.
 
 ## Features
 
 - **AI-Generated Content**: Uses Google's Gemini 2.0 Flash model to create professional tweets
 - **News Integration**: Automatically fetches recent news from trusted sources
-- **Custom Persona**: Tweets reflect the professional persona of a hospitality tech innovator
+- **Custom Persona**: Tweets can be customized to reflect your professional persona
 - **Automated Posting**: Directly posts to Twitter using the Twitter API
 - **Content Filtering**: Ensures content is relevant and tweet-worthy
 
@@ -85,7 +85,7 @@ The project includes Docker support for containerized deployment:
 
 The bot can be customized by modifying:
 - The keywords in `tools.js` to change the news topics
-- The system prompt in `system_prompt.js` to adjust the tweet style
+- The system prompt in `system_prompt.js` to adjust the tweet style and persona
 - The trusted domains in `tools.js` to change news sources
 
 ## Security Notes
